@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -9,15 +10,31 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  max-width: 70vw;
+  padding: 100px 0;
+  margin: 0 auto;
 }
 
 .grid-row {
   display: flex;
+  width: 50%;
 }
 
 .grid-column {
-  width: 35px;
-  height: 35px;
+  flex: 1;
+  aspect-ratio: 1/1;
   border: 1px solid black;
+}
+
+.newGridBtn {
+  padding: 4px 8px;
+  background-color: #698cec;
+  border-color: #698cec;
+  border-radius: 4px;
+  border: none;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+  cursor: pointer;
 }

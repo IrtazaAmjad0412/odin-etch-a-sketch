@@ -22,19 +22,6 @@ A simple browser-based Etch-a-Sketch project built with HTML, CSS, and JavaScrip
 
 ---
 
-## File Structure
-
-odin-etch-a-sketch/
-│
-├── index.html # Main HTML file
-├── css/
-│ └── styles.css # CSS styles
-├── js/
-│ └── index.js # JavaScript code
-└── README.md # Project documentation
-
----
-
 ## JavaScript Overview
 
 - createGrid(rows, columns): Generates a grid of divs dynamically.
